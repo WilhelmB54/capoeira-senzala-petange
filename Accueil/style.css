@@ -1,0 +1,36 @@
+/* FOOTER */
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+.footerBox {
+  min-width: 240px;
+  padding: 20px 0 10px 0;
+}
+
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 2.5em;
+}
+
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+#copyright {
+  font-size: x-small;
+  text-align: right;
+}
+/* END FOOTER */
