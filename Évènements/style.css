@@ -43,8 +43,21 @@ header {
 }
 /* END NAVIGATION BAR */
 
-/* BODY */
-/* END BODY */
+/* MAIN */
+main {
+  background-color: black;
+  background-image: url("https://scontent.flux2-1.fna.fbcdn.net/v/t1.6435-9/74284879_134534097949974_3118422414703198208_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RRWw5FTWE3UAX8U62bE&_nc_ht=scontent.flux2-1.fna&oh=00_AT8k3jFPpt9CpnGBwvCZ3eKFfMsVCbvfKFN9IoqFCQyulQ&oe=62B6FC86");
+  background-position: center center;
+  background-size: 100%;
+  padding: 50px;
+}
+
+h4 {
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* END MAIN */
 
 /* FOOTER */
 footer {
