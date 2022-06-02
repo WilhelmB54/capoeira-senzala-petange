@@ -43,7 +43,7 @@ header {
 }
 /* END NAVIGATION BAR */
 
-/* BODY */
+/* MAIN */
 main {
   background-color: black;
   background-image: url("https://scontent.flux2-1.fna.fbcdn.net/v/t1.6435-9/74284879_134534097949974_3118422414703198208_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RRWw5FTWE3UAX8U62bE&_nc_ht=scontent.flux2-1.fna&oh=00_AT8k3jFPpt9CpnGBwvCZ3eKFfMsVCbvfKFN9IoqFCQyulQ&oe=62B6FC86");
@@ -72,7 +72,7 @@ h2 {
   border-radius: 20%;
   box-shadow: -5px -5px 10px whitesmoke;
 }
-/* END BODY */
+/* END MAIN */
 
 /* FOOTER */
 footer {
