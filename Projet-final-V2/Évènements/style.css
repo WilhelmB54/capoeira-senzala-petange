@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: "Macondo", cursive;
+}
+
+/* NAVIGATION BAR */
+header {
+  padding-top: 15px;
+  padding-left: 10px;
+  background-color: black;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#navbarSupportedContent {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 545px) {
+  .navbar-brand {
+    font-size: 1em;
+  }
+  .logo {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    font-size: 0.75em;
+  }
+  .logo {
+    width: 20%;
+  }
+}
+/* END NAVIGATION BAR */
+
+/* MAIN */
+main {
+  background-color: black;
+  background-image: url("https://scontent.flux2-1.fna.fbcdn.net/v/t1.6435-9/74284879_134534097949974_3118422414703198208_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RRWw5FTWE3UAX8U62bE&_nc_ht=scontent.flux2-1.fna&oh=00_AT8k3jFPpt9CpnGBwvCZ3eKFfMsVCbvfKFN9IoqFCQyulQ&oe=62B6FC86");
+  background-position: center center;
+  background-size: 100%;
+  padding: 50px;
+}
+
+h4 {
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#fourthCard {
+  margin-top: 50px;
+}
+/* END MAIN */
+
+/* FOOTER */
+footer {
+  background-color: black;
+  padding-top: auto;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+.footerBox {
+  min-width: 360px;
+  padding: 20px 0 10px 0;
+}
+
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 2.5em;
+}
+
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+#copyright {
+  font-size: x-small;
+  text-align: right;
+}
+/* END FOOTER */
